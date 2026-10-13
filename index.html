@@ -1,0 +1,76 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>CampusEvents</h2>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header id="home">
+    <h1>Discover Events, Make Memories!</h1>
+    <p>Explore exciting college events and register today.</p>
+    <a href="#events" class="btn">Explore Events</a>
+</header>
+
+<section id="categories">
+    <h2>Event Categories</h2>
+    <div class="flex">
+        <div>💻 Technical</div>
+        <div>🎭 Cultural</div>
+        <div>🏆 Sports</div>
+        <div>🎓 Workshops</div>
+    </div>
+</section>
+
+<section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="flex">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500" alt="Technology event">
+            <h3>Tech Fest</h3>
+            <p>📅 Nov 05, 2026</p>
+            <p>📍 Main Auditorium</p>
+            <button onclick="register('Tech Fest')">Register</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500" alt="Cultural festival">
+            <h3>Cultural Fest</h3>
+            <p>📅 Nov 12, 2026</p>
+            <p>📍 Open-Air Theatre</p>
+            <button onclick="register('Cultural Fest')">Register</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500" alt="Sports event">
+            <h3>Sports Meet</h3>
+            <p>📅 Nov 18, 2026</p>
+            <p>📍 Sports Ground</p>
+            <button onclick="register('Sports Meet')">Register</button>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <h3>CampusEvents</h3>
+    <p>Email: events@college.edu</p>
+    <p>© 2026 College Event Portal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
